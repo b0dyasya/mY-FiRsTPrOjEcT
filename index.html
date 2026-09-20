@@ -66,7 +66,19 @@
         <!-- Секція контактів -->
         <section id="contacts">
             <h2>Контакти</h2>
-            <p>Форма зв'язку з'явиться тут у наступній практичній.</p>
+            <p><!-- Форма зворотного зв'язку -->
+        <form action="#" method="POST">
+            <label for="name">Ваше ім'я або назва компанії:</label><br>
+            <input type="text" id="name" name="name" placeholder="Введіть ім'я" required><br><br>
+
+            <label for="email">Контактний Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+            <label for="message">Ваша пропозиція:</label><br>
+            <textarea id="message" name="message" rows="5" placeholder="Напишіть повідомлення тут..." required></textarea><br><br>
+
+            <button type="submit">Відправити пропозицію</button>
+        </form></p>
         </section>
 
     </main>
